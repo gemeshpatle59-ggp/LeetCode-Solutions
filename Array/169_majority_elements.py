@@ -44,4 +44,4 @@ class Solution:
 
         return n
 a1 = Solution()
-print(a1.majorityElement([3,2,3]))
+print(a1.majorityElement([2,2,1,1,1,2,2]))
