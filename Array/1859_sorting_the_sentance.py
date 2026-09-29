@@ -55,12 +55,12 @@ class Solution:
             else:
                 temp += i
 
-        sp = 0
+        spe = 0
 
         for i in range(1,t+1):
             if i in hash_map:
                 original_sen += hash_map[i]
-                if sp < space:
+                if spe < space:
                     original_sen += " "
                     sp += 1
 
