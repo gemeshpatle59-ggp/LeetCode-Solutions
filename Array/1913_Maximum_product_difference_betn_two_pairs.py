@@ -57,6 +57,7 @@ class Solution:
 
         return nums[-1] * nums[-2] - nums[0] * nums[1]
 
+    
 
 a1 = Solution()
 print(a1.maxProductDifference([4,2,5,9,7,4,8]))
