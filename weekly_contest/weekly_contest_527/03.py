@@ -121,4 +121,6 @@ colors = "BRRR"
 edges = [[0,1],[0,2],[0,3]]
 
 a1 = Solution()
+
+
 print(a1.minCost(n,colors,edges))
