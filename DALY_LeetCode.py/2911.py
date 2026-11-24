@@ -62,7 +62,7 @@ s contains only lowercase English letters.
 class Solution:
     def minimumChanges(self, s: str, k: int) -> int:
         n = len(s)
-        INF = float('inf')
+        INF = 10**9
 
         cost = [[INF] * n for _ in range(n)]
 
